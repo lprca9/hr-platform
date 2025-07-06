@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مقترح منصة الرؤى التنبئية للموارد البشرية</title>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --primary: #009CA6;
+      --secondary: #04545A;
+      --background: #F7F9FA;
+      --surface: #FFFFFF;
+      --gray-border: #E6EDF1;
+      --radius: 14px;
+      --shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      --hover-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+      --transition: 300ms ease;
+    }
+    body {
+      margin: 0;
+      font-family: 'Tajawal', sans-serif;
+      background: var(--background);
+      color: var(--secondary);
+      line-height: 1.8;
+    }
+    header {
+      background: var(--surface);
+      border-bottom: 4px solid var(--primary);
+      padding: 1.5rem 2rem;
+      text-align: center;
+      box-shadow: var(--shadow);
+    }
+    header h1 {
+      margin: 0;
+      color: var(--primary);
+      font-size: 2rem;
+    }
+    header p {
+      margin-top: .5rem;
+      color: var(--secondary);
+      font-weight: bold;
+      opacity: 0.85;
+    }
+    section {
+      background: var(--surface);
+      margin: 2rem auto;
+      max-width: 1000px;
+      padding: 2rem 1.5rem;
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      transition: box-shadow var(--transition);
+    }
+    section:hover {
+      box-shadow: var(--hover-shadow);
+    }
+    h2 {
+      color: var(--primary);
+      border-right: 5px solid var(--primary);
+      padding-right: .5rem;
+      margin-bottom: 1.2rem;
+      font-size: 1.6rem;
+      position: relative;
+    }
+    h2::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 2px;
+      background: var(--primary);
+      margin-top: .5rem;
+      opacity: 0.3;
+    }
+    p, li {
+      font-size: 1.05rem;
+    }
+    ul {
+      padding-right: 1.5rem;
+    }
+    li {
+      margin-bottom: .5rem;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+      box-shadow: var(--shadow);
+      border-radius: var(--radius);
+      overflow: hidden;
+    }
+    th, td {
+      border: 1px solid var(--gray-border);
+      padding: .75rem 1rem;
+      text-align: center;
+    }
+    th {
+      background: var(--primary);
+      color: #fff;
+      font-weight: 700;
+    }
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 1.5rem;
+      transition: var(--transition);
+      border: 1px solid var(--gray-border);
+    }
+    .card:hover {
+      box-shadow: var(--hover-shadow);
+      transform: translateY(-4px);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: var(--primary);
+      font-size: 1.3rem;
+      margin-bottom: .5rem;
+    }
+    .card p {
+      margin: 0;
+      opacity: 0.95;
+    }
+    footer {
+      background: var(--surface);
+      text-align: center;
+      padding: 1.5rem;
+      border-top: 2px solid var(--gray-border);
+      color: var(--secondary);
+      font-size: .9rem;
+      opacity: 0.85;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>مقترح إنشاء منصة الرؤى التنبئية لإدارة الموارد البشرية</h1>
+  <p>تجمع تبوك الصحي – الإدارة التنفيذية للموارد البشرية</p>
+</header>
+
+<section>
+  <h2>مقدمة شاملة</h2>
+  <p>في إطار التحول الوطني الصحي، نقترح تطوير منصة رؤى تنبئية متقدمة لإدارة الموارد البشرية في تجمع تبوك الصحي. هذه المنصة ستمكن القيادة من التخطيط الاستباقي المبني على البيانات، رفع كفاءة التشغيل، وتقديم تجربة استخدام متطورة لكل الإدارات المعنية.</p>
+</section>
+
+<section>
+  <h2>ما هي المنصة؟</h2>
+  <p>هي حل رقمي موحد يجمع بيانات الموارد البشرية من مصادر متعددة، ينظفها ويحللها ويحوّلها إلى رؤى وتوصيات ذكية، مما يتيح اتخاذ قرارات دقيقة، سريعة ومدروسة، ويدعم أهداف الصحة القابضة في توحيد جودة الخدمات.</p>
+</section>
+
+<section>
+  <h2>الأهداف الاستراتيجية</h2>
+  <table>
+    <thead>
+      <tr><th>المحور</th><th>الوصف</th><th>المستهدف</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>دقة التنبؤ</td><td>تحليل ذكي للبيانات لتوقع الاحتياجات البشرية</td><td>≥ 95%</td></tr>
+      <tr><td>زمن القرار</td><td>تسريع الوصول للمعلومة وتقصير زمن القرار</td><td>-40%</td></tr>
+      <tr><td>التجربة</td><td>واجهة موحدة تدعم جميع الأجهزة ببساطة وسهولة</td><td>NPS ≥ 90</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>مكونات المنصة الرئيسية</h2>
+  <div class="cards-grid">
+    <div class="card">
+      <h3>محرك التنبؤ</h3>
+      <p>يستخدم الذكاء الاصطناعي للتنبؤ بالفجوات والاحتياجات بدقة عالية، مما يمكن الإدارة من جدولة التعيينات وتقليل التكلفة التشغيلية.</p>
+    </div>
+    <div class="card">
+      <h3>مركز التكامل</h3>
+      <p>طبقة آمنة لربط النظام بأنظمة الوزارة الداخلية بسلاسة، تضمن تدفق البيانات الموثوقة وتكاملها دون عوائق.</p>
+    </div>
+    <div class="card">
+      <h3>لوحة القيادة التفاعلية</h3>
+      <p>تعرض مؤشرات الأداء الحيوية، رسومًا بيانية تفاعلية، وتوصيات مباشرة لدعم متخذي القرار بمعلومات محدثة لحظيًا.</p>
+    </div>
+    <div class="card">
+      <h3>وحدة التقارير الذكية</h3>
+      <p>توفر تقارير دورية آلية وتنبيهات استباقية، تقلل العبء اليدوي وتدعم الشفافية وسرعة الاستجابة الإدارية.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>رحلة البيانات</h2>
+  <p><strong>جمع ← تنقية ← تخزين ← تحليل ← تنبؤ ← تقرير</strong></p>
+  <ul>
+    <li>مصادر متعددة تشمل الأنظمة الداخلية وجداول Excel.</li>
+    <li>تنقية وتدقيق صارم لضمان جودة البيانات.</li>
+    <li>تخزين مركزي آمن وسهل الاسترجاع.</li>
+    <li>تحليلات متقدمة وتنبؤات قابلة للتخصيص.</li>
+    <li>تقارير ولوحات تفاعلية مخصصة للإدارة التنفيذية.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>خطة التنفيذ المقترحة</h2>
+  <table>
+    <thead>
+      <tr><th>المرحلة</th><th>الفترة</th><th>التفاصيل الرئيسية</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>التصميم</td><td>Q3-2025</td><td>تحليل المتطلبات وتصميم الحلول المبدئية بالتعاون مع الأطراف المعنية.</td></tr>
+      <tr><td>التطوير</td><td>Q4-2025</td><td>بناء المنصة وتكاملها مع الأنظمة الحالية وفق المعايير.</td></tr>
+      <tr><td>الاختبار</td><td>Q1-2026</td><td>تنفيذ اختبارات وظيفية وضمان الجودة وتدريب فرق العمل.</td></tr>
+      <tr><td>الإطلاق</td><td>Q2-2026</td><td>الإطلاق الرسمي وتقديم الدعم المستمر وتدريب المستخدمين.</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h2>مؤشرات الأداء الرئيسية (KPIs)</h2>
+  <ul>
+    <li>دقة التنبؤ: ≥95% (مستهدف).</li>
+    <li>رضا المستخدمين (NPS): ≥90%.</li>
+    <li>زمن استخراج التقرير: تقليل من أيام إلى دقائق.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>جاهزية الأمن السيبراني والحوكمة</h2>
+  <ul>
+    <li>متوافقة مع معايير <strong>NCA</strong> في الحوكمة، الحماية، والمراقبة.</li>
+    <li>ملتزمة بسياسات <strong>NDMO</strong> في جودة البيانات، الخصوصية، التكامل والتوافر.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>بيانات التواصل</h2>
+  <p><strong>نشمي علي البلوي</strong><br>i-7c@hotmail.com<br>+966 59 274 0662</p>
+  <p>سري – للاستخدام الداخلي فقط بتجمع تبوك الصحي</p>
+</section>
+
+<footer>
+  © 2025 تجمع تبوك الصحي – منصة الرؤى التنبئية – جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
